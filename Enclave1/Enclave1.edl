@@ -1,0 +1,16 @@
+enclave {
+    from "sgx_tstdc.edl" import *;
+	include "sgx_tseal.h"
+
+    trusted {
+        /* define ECALLs here. */
+		public uint32_t sizeOfSealData();
+		public void seal([out,size=seal_data_size] sgx_sealed_data_t* sealedData, uint32_t seal_data_size,[out,size=debug_size]char *debug, uint8_t debug_size);
+		public void encryptText([in,size=length]char *plainText, size_t length,[out,size=len_cipher] char *cipher, size_t len_cipher, [in,size=sealed_Size] sgx_sealed_data_t *sealed, uint32_t sealed_Size,[out,size=debug_size]char *debug, uint8_t debug_size);
+		public void decryptText([in,size=len] char *encMessageIn, size_t len, [out,size=lenOut] char *decMessageOut, size_t lenOut,[in,size=sealed_Size] sgx_sealed_data_t *sealed, uint32_t sealed_Size,[out,size=debug_size]char *debug, uint8_t debug_size);
+	};
+
+    untrusted {
+        /* define OCALLs here. */
+    };
+};
