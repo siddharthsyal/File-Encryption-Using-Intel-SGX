@@ -1,10 +1,10 @@
 ﻿  Creating proxy/bridge routines
   Enclave1.cpp
-e:\personal\johns hopkins university\capstone\user_sample\enclave1\enclave1\enclave1.cpp(47): warning C4101: 'iv': unreferenced local variable
-e:\personal\johns hopkins university\capstone\user_sample\enclave1\enclave1\enclave1.cpp(52): warning C4101: 'ret': unreferenced local variable
+z:\personal\johns hopkins university\capstone\code\phase2\enclave1\enclave1\enclave1.cpp(47): warning C4101: 'iv': unreferenced local variable
+z:\personal\johns hopkins university\capstone\code\phase2\enclave1\enclave1\enclave1.cpp(52): warning C4101: 'ret': unreferenced local variable
   Enclave1_t.c
-     Creating library E:\Personal\Johns Hopkins University\Capstone\User_Sample\Enclave1\Debug\Enclave1.lib and object E:\Personal\Johns Hopkins University\Capstone\User_Sample\Enclave1\Debug\Enclave1.exp
-  Enclave1.vcxproj -> E:\Personal\Johns Hopkins University\Capstone\User_Sample\Enclave1\Debug\Enclave1.dll
+     Creating library Z:\Personal\Johns Hopkins University\Capstone\Code\Phase2\Enclave1\Debug\Enclave1.lib and object Z:\Personal\Johns Hopkins University\Capstone\Code\Phase2\Enclave1\Debug\Enclave1.exp
+  Enclave1.vcxproj -> Z:\Personal\Johns Hopkins University\Capstone\Code\Phase2\Enclave1\Debug\Enclave1.dll
   sign the enclave
   The required memory is 0x16c000.
   Succeed.

@@ -1,0 +1,11 @@
+﻿  Creating untrusted proxy/bridge routines
+  pch.cpp
+  ConsoleApplication1.cpp
+z:\personal\johns hopkins university\capstone\code\phase2\enclave1\consoleapplication1\consoleapplication1.cpp(620): warning C4102: 'defualt': unreferenced label
+  Enclave1_u.c
+  mbedTLS.lib(x509_crt.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+  ConsoleApplication1.vcxproj -> Z:\Personal\Johns Hopkins University\Capstone\Code\Phase2\Enclave1\Debug\ConsoleApplication1.exe

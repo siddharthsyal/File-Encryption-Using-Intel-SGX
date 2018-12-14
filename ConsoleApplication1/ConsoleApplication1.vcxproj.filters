@@ -14,14 +14,11 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Generated Files">
-      <UniqueIdentifier>{7ec7b1fb-0595-4dc8-ab46-3a9cd58569cc}</UniqueIdentifier>
+      <UniqueIdentifier>{07b026fe-71f1-419e-8a16-24999dfd301b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Program Files (x86)\Intel\IntelSGXSDK\include\sgx_tseal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Enclave1_u.h">
@@ -32,7 +29,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConsoleApplication.cpp">
+    <ClCompile Include="ConsoleApplication1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Enclave1_u.c">

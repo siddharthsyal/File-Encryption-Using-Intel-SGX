@@ -1,3 +1,4 @@
+
 enclave {
     from "sgx_tstdc.edl" import *;
 	include "sgx_tseal.h"
