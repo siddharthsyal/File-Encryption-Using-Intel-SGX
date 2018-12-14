@@ -626,22 +626,4 @@ int main() {
 		printf("Invalid Authentication\n");
 	}
 	return 0;
-	/*
-	printf("Select from either one : \n1) Encrypt a file\n2) Decrypt a file\n Enter choice : ");
-	cin.clear();
-	cin >> choice;
-	
-	switch (choice) {
-	case 1:
-		cin.clear();
-		encryptFile();
-		break;
-	case 2:
-		decryptFile();
-		break;
-	defualt:
-		printf("Ooops! Wrong input");
-		break;
-	}
-	return 0;*/
 }
